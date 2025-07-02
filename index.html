@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EC NO SHIFT UI</title>
+
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="ec-content">
+      <h1>EC NO SHIFT UI</h1>
+      <p>Clique no botão abaixo para abrir o modal e esconder a scrollbar.</p>
+      <button id="ec-modal-btn-open" class="ec-button ec-btn--primary">
+        ABRIR MODAL
+      </button>
+      <div class="ec-filler">
+        <section class="ec-preview-intro">
+          <h2>Evite o Layout Shift ao Esconder a Scrollbar</h2>
+
+          <p>
+            Sabe quando você abre um modal e o conteúdo da página dá aquele
+            pequeno "pulo" pro lado? Isso acontece porque a scrollbar desaparece
+            e altera a largura da viewport — um problema sutil, mas que quebra a
+            fluidez da interface.
+          </p>
+
+          <p>
+            No artigo que publicamos no Medium, mostramos como resolver isso de
+            forma simples e eficaz: calculando dinamicamente a largura da
+            scrollbar e compensando com um
+            <code>padding</code>
+            no
+            <code>body</code>
+            — tudo sem depender de bibliotecas externas.
+          </p>
+
+          <p>
+            A solução é leve, reutilizável e pode ser aplicada em modais, bottom
+            sheets, overlays, e qualquer situação que exija o bloqueio da
+            rolagem do fundo.
+          </p>
+
+          <p>
+            Veja o exemplo a cima em ação e, se quiser entender os bastidores,
+            clique no botão abaixo para ler o artigo completo:
+          </p>
+
+          <a
+            href="https://medium.com/@edsoncamargo.dev/a-forma-certa-de-esconder-a-scrollbar-sem-quebrar-seu-layout-layout-shift-c1073d8cab37"
+            target="_blank"
+            class="ec-button"
+          >
+            <img
+              src="./src/medium.png"
+              alt="Medium logo"
+              width="24"
+              height="24"
+            />
+          </a>
+        </section>
+      </div>
+    </div>
+
+    <div id="ec-modal" class="ec-modal">
+      <div class="ec-modal__content">
+        <p>
+          Este é o modal que usamos para testar nossa solução contra o problema
+          do layout shift causado pela scrollbar.
+        </p>
+        <button data-ec-close class="ec-button ec-btn--secondary">
+          FECHAR
+        </button>
+      </div>
+    </div>
+
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>
