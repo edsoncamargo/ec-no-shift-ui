@@ -79,11 +79,11 @@ body {
   background-color: #c5bfed;
 }
 
-.ec-btn--primary {
+.ec-button--primary {
   background-color: #120d31;
 }
 
-.ec-btn--secondary {
+.ec-button--secondary {
   background-color: #120d31;
   border: 2px solid #2b206f;
 }

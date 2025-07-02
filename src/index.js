@@ -14,7 +14,7 @@ function setupModal() {
 }
 
 function setupEvents(serviceModal, ui) {
-  const btnOpen = document.getElementById('ec-modal-btn-open');
+  const btnOpen = document.getElementById('ec-modal-button-open');
   btnOpen.addEventListener('click', () => serviceModal.open());
 
   const component = serviceModal.component;
