@@ -5,7 +5,7 @@ module.exports = {
   output: {
     filename: 'ec-no-shift-ui.min.js',
     path: __dirname + '/dist',
-    library: 'ECNoShiftUI',
+    library: 'ECCorp',
     libraryTarget: 'umd',
     globalObject: 'this',
   },

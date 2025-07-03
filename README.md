@@ -25,9 +25,9 @@ ou via CDN:
 ### Módulo ES
 
 ```js
-import { ECNoShiftUI } from 'ec-no-shift-ui';
+import { ECCorp } from 'ec-no-shift-ui';
 
-const ui = new ECNoShiftUI();
+const ui = new ECCorp.ECNoShiftUI();
 
 ui.applyNoShiftScrollLock();
 ui.enableBodyScroll();
@@ -40,7 +40,7 @@ ui.enableBodyScroll();
 ```html
 <script src="ec-no-shift-ui.min.js"></script>
 <script>
-  const ui = new ECNoShiftUI();
+  const ui = new ECCorp.ECNoShiftUI();
 
   document
     .getElementById('seu-componente')

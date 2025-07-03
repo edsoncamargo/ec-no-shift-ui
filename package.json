@@ -1,6 +1,6 @@
 {
   "name": "ec-no-shift-ui",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Serviço leve para evitar layout shift ao esconder a scrollbar do body durante modais, overlays e afins.",
   "main": "dist/ec-no-shift-ui.min.js",
   "module": "dist/ec-no-shift-ui.min.js",
