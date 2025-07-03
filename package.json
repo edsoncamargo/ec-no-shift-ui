@@ -1,0 +1,44 @@
+{
+  "name": "ec-no-shift-ui",
+  "version": "1.0.0",
+  "description": "Serviço leve para evitar layout shift ao esconder a scrollbar do body durante modais, overlays e afins.",
+  "main": "dist/ec-no-shift-ui.min.js",
+  "module": "dist/ec-no-shift-ui.min.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsoncamargo/ec-no-shift-ui.git"
+  },
+  "author": "Edson Camargo Menezes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edsoncamargo/ec-no-shift-ui/issues"
+  },
+  "homepage": "https://github.com/edsoncamargo/ec-no-shift-ui#readme",
+  "keywords": [
+    "scrollbar",
+    "layout-shift",
+    "overflow-hidden",
+    "body-scroll-lock",
+    "ux",
+    "modal",
+    "overlay",
+    "javascript",
+    "frontend",
+    "scroll-lock",
+    "scroll-fix",
+    "no-shift",
+    "ec-no-shift-ui",
+    "edsoncamargo"
+  ],
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.14",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}

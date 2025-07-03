@@ -1,5 +1,5 @@
 import { ECModalService } from './ec-modal.service.js';
-import { ECNoShiftUI } from './ec-no-shift-ui.js';
+import { ECNoShiftUI } from '../../src/ec-no-shift-ui.js';
 
 function main() {
   const ui = new ECNoShiftUI();
