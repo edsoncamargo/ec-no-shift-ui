@@ -48,7 +48,6 @@ ui.enableBodyScroll();
   document
     .getElementById('seu-componente')
     .addEventListener('close', () => ui.enableBodyScroll());
-  l;
 </script>
 ```
 
