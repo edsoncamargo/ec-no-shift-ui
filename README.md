@@ -15,7 +15,7 @@ npm install ec-no-shift-ui
 ou via CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/ec-no-shift-ui@latest/dist/ec-no-shift-ui.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/ec-no-shift-ui/dist/ec-no-shift-ui.min.js"></script>
 ```
 
 ---
